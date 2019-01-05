@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#vm:alltools",
+	"#vm:powder",
+	"#minecraft:dirt_like",
+    "minecraft:grass_path",    
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:gravel",
+	"minecraft:farmland",
+	"minecraft:soul_sand",
+	"minecraft:snow_block",
+	"minecraft:snow",
+	"minecraft:clay"
+  ]
+}

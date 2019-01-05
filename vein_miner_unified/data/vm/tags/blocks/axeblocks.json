@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+	"#minecraft:logs",
+   	"#minecraft:wooden_buttons",
+	"#minecraft:planks",
+	"#minecraft:wooden_pressure_plates",
+	"#minecraft:wooden_slabs",
+	"#minecraft:wooden_stairs",
+	"#minecraft:wooden_trapdoors",
+    "#vm:alltools",
+	"#vm:fences_gates",
+    "minecraft:cocoa",
+	"minecraft:pumpkin",
+	"minecraft:carved_pumpkin",
+	"minecraft:jack_o_lantern",
+	"minecraft:melon",
+    "minecraft:bookshelf",
+	"minecraft:crafting_table",
+	"minecraft:daylight_detector",
+	"minecraft:brown_mushroom_block",
+	"minecraft:red_mushroom_block",
+	"minecraft:mushroom_stem",
+	"minecraft:ladder",
+	"minecraft:note_block"
+  ]
+}

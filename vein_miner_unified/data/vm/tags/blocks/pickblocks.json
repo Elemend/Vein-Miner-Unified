@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "#vm:alltools",
+    "#vm:concrete",
+	"#vm:stones",
+	"#vm:terracotta",
+	"#vm:glazed",
+	"#vm:stainedglass",
+	"#vm:panes",
+	"#vm:materialblocks",
+	"#vm:dimensionblocks",
+	"#vm:sandstones",
+	"#vm:oceanblocks",
+	"#vm:randoms",
+	"#vm:ores",
+	"#minecraft:stairs",
+	"#minecraft:slabs",
+	"#minecraft:walls",
+	"minecraft:nether_brick_fence"
+  ]
+}
