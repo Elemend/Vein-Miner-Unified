@@ -1,0 +1,54 @@
+#If you're wondering what's with all these @e-selectors, then I assure you that's actually not too bad, because it only checks these "recipes" if you dropped an ender eye. Additionally, the fake player #vm_craft stops this function from running after 8 seconds of not finding a crafted/enchanted item. That way it only checks in narrow circumstances, which makes it not completely inefficient.
+
+scoreboard players add #vm_craft vm_calc 1
+
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:diamond_pickaxe",tag:{Enchantments:[{}]}},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:diamond_pickaxe"},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,Enchantments:[{}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:diamond_axe",tag:{Enchantments:[{}]}},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:diamond_axe"},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,Enchantments:[{}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:diamond_shovel",tag:{Enchantments:[{}]}},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:diamond_shovel"},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,Enchantments:[{}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:diamond_hoe",tag:{Enchantments:[{}]}},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,vm_hoe:1b,display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:diamond_hoe"},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,vm_hoe:1b,Enchantments:[{}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:iron_pickaxe",tag:{Enchantments:[{}]}},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:iron_pickaxe"},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,Enchantments:[{}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:iron_axe",tag:{Enchantments:[{}]}},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:iron_axe"},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,Enchantments:[{}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:iron_shovel",tag:{Enchantments:[{}]}},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:iron_shovel"},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,Enchantments:[{}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:iron_hoe",tag:{Enchantments:[{}]}},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,vm_hoe:1b,display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:iron_hoe"},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,vm_hoe:1b,Enchantments:[{}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:shears",tag:{Enchantments:[{}]}},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+execute as @e[type=item,distance=..6,limit=1,nbt={Item:{id:"minecraft:shears"},OnGround:1b}] at @s if block ~ ~ ~ enchanting_table if entity @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:ender_eye",Count:1b},OnGround:1b}] run data merge entity @s {Item:{tag:{vm_mine:1b,Enchantments:[{}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":\"false\"}"]}}},Motion:[0.0d,0.3d,0.0d],Tags:["vm_craft"],PickupDelay:0}
+execute as @e[type=item,distance=..6,limit=1,tag=vm_craft] at @s run function vm:tools/craft
+
+execute if score #vm_craft vm_calc matches 160 run scoreboard players set @s vm_chant 0
+execute if score #vm_craft vm_calc matches 160 run scoreboard players set #vm_craft vm_calc 0
+execute if entity @e[type=item,distance=..6,limit=1,tag=vm_craft] run scoreboard players set @s vm_chant 0
+
+#it's still pretty bad, I'd rather have nbt-crafting.

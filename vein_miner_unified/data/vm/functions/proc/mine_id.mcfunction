@@ -1,0 +1,2 @@
+scoreboard players operation @e[type=area_effect_cloud,tag=vm_getpos,distance=..7] vm_calc = @s vm_id
+execute as @e[type=area_effect_cloud,tag=vm_getpos,distance=..7] run scoreboard players operation @s vm_calc -= @s vm_id
