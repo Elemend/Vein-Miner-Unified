@@ -1,0 +1,2 @@
+execute if score @s[tag=!vm_noitem] vm_material matches ..274 run function vm:blocks/setupmine/leaves/273-274
+execute if score @s vm_material matches 275.. run function vm:blocks/setupmine/leaves/275-276
