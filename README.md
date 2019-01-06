@@ -46,10 +46,6 @@ If you want to disable that to stop the items from filling your Inventory too qu
 
 You need to have permissions to type this command into chat. (Either via LAN-world which has cheats enabled or being opped on a Server)
 
-# 4th Customisation: Do you want to restrict veinmining only to certain Blocks?
-
-This is more complicated as the other options and requires a bit of an Understanding of the Structure of datapacks and Block tags in particular. Each Tool, Pickaxe, Axe, Shovel and Shears has an associated block tag which dictates the Blocks you can or can't veinmine. This will turn into a bit of a lengthy explanation, so I would like to write this as a wiki entry.
-
 # Installation
 
 Here on GitHub, the repository shows the zip-file directly: "vein_miner_unified.zip" 
