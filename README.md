@@ -54,7 +54,7 @@ This is more complicated as the other options and requires a bit of an Understan
 
 Here on GitHub, the repository shows the zip-file directly: "vein_miner_unified.zip" 
 
-Click on that and you will see a different page with a direct download Button of that zip-file. Click that and save it.
+Click on that and you will see a different page with a direct Download Button on the right hand side. Click that and save it.
 
 Then open your minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile needs to be copied into. 
 
