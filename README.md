@@ -15,7 +15,7 @@ The Durability of the Tool is used up the same Rate as if you mined each Block i
 Fortune and Silk Touch Enchants on the used Tools are taken into Account as well when mining Blocks that are affected by those Enchantments. This includes crops, you just have to veinmine them with an axe, shovel or pickaxe.
 
 
-# 1st Customisation: Do you want it to only be used from certain tools?
+# 1st Customisation: Do you want it to only work with certain/special tools?
 
 Do you want it to work through an Enchantment? Then you don't need to do anything, as that is the default setting. 
 To add the Enchantment on your tool throw them onto an Enchanting Table, then throw an ender eye on the table too and it will have the Enchantment added. Be sure to do this in Survival Mode. That way you can still use other tools normally without accidentally veinmining.
