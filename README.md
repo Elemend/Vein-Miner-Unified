@@ -38,7 +38,7 @@ You need to have permissions to type this command into chat. (Either via LAN-wor
 
 # 3rd Customisation: You can decide if you want the items that are generated to be teleported to you.
 
-The Items you mined will appear at the Block you veinmined. Per Default, these will be teleported directly to the player. It happens quite fast so you normally you shouldn't notice it. If you're ok with that you don't need to change anything.
+The Items from the Blocks you mined will appear at the original Block you veinmined. Per Default, these will be teleported directly to the player. It happens quite fast so you normally you shouldn't notice it. If you're ok with that you don't need to change anything.
 
 If you want to disable that to stop the items from filling your Inventory too quickly, then you can turn that off. Copy this command ingame into chat and execute it once:
 
