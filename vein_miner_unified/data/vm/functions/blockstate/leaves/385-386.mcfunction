@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 385 run function vm:blockstate/buttons/jungle/xyzspread/xyzspread
+execute if score @s vm_material matches 386 run function vm:blockstate/buttons/spruce/xyzspread/xyzspread

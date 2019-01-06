@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 367 run function vm:blockstate/logs/stripped_birch_log/xyzspread
+execute if score @s vm_material matches 368 run function vm:blockstate/logs/stripped_acacia_log/xyzspread

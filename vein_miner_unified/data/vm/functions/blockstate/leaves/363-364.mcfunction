@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 363 run function vm:blockstate/logs/stripped_dark_oak_wood/xyzspread
+execute if score @s vm_material matches 364 run function vm:blockstate/logs/stripped_jungle_wood/xyzspread

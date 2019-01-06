@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 307 run function vm:blockstate/glass_panes/green/xyzspread
+execute if score @s vm_material matches 308 run function vm:blockstate/glass_panes/light_blue/xyzspread

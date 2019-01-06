@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 329 run function vm:blockstate/stairs/cobblestone/xyzspread
+execute if score @s vm_material matches 330 run function vm:blockstate/stairs/polished_granite/xyzspread

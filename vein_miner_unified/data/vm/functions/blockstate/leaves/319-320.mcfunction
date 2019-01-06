@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 319 run function vm:blockstate/randoms/brown_mushroom_block/xyzspread
+execute if score @s vm_material matches 320 run function vm:blockstate/randoms/mushroom_stem/xyzspread

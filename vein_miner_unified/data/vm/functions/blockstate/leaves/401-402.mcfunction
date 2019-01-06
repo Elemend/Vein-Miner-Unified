@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 401 run function vm:blockstate/randoms/note_block/xyzspread
+execute if score @s vm_material matches 402 run function vm:blockstate/randoms/carved_pumpkin/xyzspread

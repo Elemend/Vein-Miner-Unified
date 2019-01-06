@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 423 run function vm:blockstate/glazed_terracotta/magenta/xyzspread
+execute if score @s vm_material matches 424 run function vm:blockstate/glazed_terracotta/orange/xyzspread

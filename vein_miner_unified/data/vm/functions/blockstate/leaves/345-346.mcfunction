@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 345 run function vm:blockstate/randoms/detector_rail/xzspread
+execute if score @s vm_material matches 346 run function vm:blockstate/randoms/powered_rail/xzspread

@@ -1,0 +1,2 @@
+execute if score @s vm_material matches 439 run function vm:blockstate/pillars/quartz/xyzspread
+execute if score @s vm_material matches 440 run function vm:blockstate/randoms/daylight_detector/xyzspread
