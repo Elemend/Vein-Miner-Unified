@@ -12,7 +12,7 @@ Using these tools still follows the same principle as past Versions: Mine Blocks
 
 The Durability of the Tool is used up the same Rate as if you mined each Block individually. The Durability Loss can be reduced with Unbreaking enchants on the Tools. A major change in comparison to past Versions: If the tool runs out of durability then it stops veinmining. For example if your tool only has 4 durability left, you will only be able to veinmine 4 Blocks. The Tool will never be destroyed, unless you try to mine a block with 0 durability, which will destroy your tool, logically.
 
-Fortune and Silk Touch Enchants on the used Tools are taken into Account as well when mining Blocks that are affected by those Enchantments. This includes crops, you just have to veinmine them with an axe, shovel or pickaxe.
+Fortune and Silk Touch Enchants on the used Tools are taken into Account as well when mining Blocks that are affected by those Enchantments. This includes crops, you just have to veinmine them with an axe, shovel or pickaxe. Veinmining Ores will drop their experience orbs just as they would normally.
 
 
 # 1st Customisation: Do you want it to only work with certain/special tools?
