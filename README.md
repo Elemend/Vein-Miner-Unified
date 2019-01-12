@@ -1,6 +1,9 @@
 # Vein-Miner-Unified
 The One Vein-Miner-Datapack to displace all previous Versions
 
+# Beware that at this point in Time it works only in the 1.14-Snapshots. Last one tested: 19w02a
+I'll eventually have this working in 1.13-Minecraft too.
+__________________________________________________________________________________________________
 
 This Veinminer works with the following tools:
 
