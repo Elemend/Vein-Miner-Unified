@@ -1,8 +1,8 @@
 # Vein-Miner-Unified
 The One Vein-Miner-Datapack to displace all previous Versions
 
-# Beware that at this point in Time it works only in the 1.14-Snapshots. Last one tested: 19w02a
-I'll eventually have this working in 1.13-Minecraft too.
+# A 1.13.2-Version is available. Tested in 1.13.2 and functioning.
+# The 1.14-Version was last tested in Snapshot 19w02. After 1.14 has released I will update that again.
 __________________________________________________________________________________________________
 
 This Veinminer works with the following tools:
@@ -51,7 +51,7 @@ You need to have permissions to type this command into chat. (Either via LAN-wor
 
 # Installation
 
-Here on GitHub, the repository shows the zip-file directly: "vein_miner_unified.zip" 
+Here on GitHub, the repository shows the zip-file directly: "vein_miner_u_1.13.2.zip" or "vein_miner_u_1.14.zip"
 
 Click on that and you will see a different page with a direct Download Button on the right hand side. Click that and save it.
 
