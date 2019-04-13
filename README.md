@@ -13,10 +13,13 @@ Iron Pickaxe, Iron Axe, Iron Shovel, Iron Hoe and Shears
 
 Using these tools still follows the same principle as past Versions: Mine Blocks while sneaking and all identical Blocks that are orthogonally connected to the one mined, up to a distance of 4 Blocks will be mined too. The theoretical Maximum Volume of Blocks that it will mine is 9x9x9, or 729 Blocks. (Theoretically because the player has to stand somewhere)
 
-The Durability of the Tool is used up the same Rate as if you mined each Block individually. The Durability Loss can be reduced with Unbreaking enchants on the Tools. A major change in comparison to past Versions: If the tool runs out of durability then it stops veinmining. For example if your tool only has 4 durability left, you will only be able to veinmine 4 Blocks. The Tool will never be destroyed, unless you try to mine a block with 0 durability, which will destroy your tool, logically.
+The Durability of the Tool is used up the same Rate as if you mined each Block individually. The Durability Loss can be reduced with Unbreaking enchants on the Tools. A major change in comparison to past Versions: If the tool runs out of durability then it stops veinmining. For example if your tool only has 4 durability left, you will only be able to veinmine 4 Blocks. The Tool will never be destroyed, unless you try to mine a block with 0 durability, which will destroy your tool, logically. 
 
-Fortune and Silk Touch Enchants on the used Tools are taken into Account as well when mining Blocks that are affected by those Enchantments. This includes crops, you just have to veinmine them with an axe, shovel or pickaxe. Veinmining Ores will drop their experience orbs just as they would normally.
+Fortune and Silk Touch Enchants on the used Tools are taken into Account as well when mining Blocks that are affected by those Enchantments. This includes crops, you just have to veinmine them with an axe, shovel or pickaxe. Veinmining Ores will drop their experience orbs just as they would normally. 
 
+Another Enchantment that is being taken into account is Unbreaking. It works with Unbreaking 1,2 and 3. Every Block you veinmine has a chance to not count towards the durability-loss of your Tool. This means you will be able to mine tons more Blocks than in previous Versions.
+
+There are Options to customise the Useage and Effects:
 
 # 1st Customisation: Do you want it to only work with certain/special tools?
 
