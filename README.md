@@ -17,14 +17,14 @@ The Durability of the Tool is used up the same Rate as if you mined each Block i
 
 Fortune and Silk Touch Enchants on the used Tools are taken into Account as well when mining Blocks that are affected by those Enchantments. This includes crops, you just have to veinmine them with an axe, shovel or pickaxe. Veinmining Ores will drop their experience orbs just as they would normally. 
 
-Another Enchantment that is being taken into account is Unbreaking. It works with Unbreaking 1,2 and 3. Every Block you veinmine has a chance to not count towards the durability-loss of your Tool. This means you will be able to mine tons more Blocks than in previous Versions.
+Another Enchantment that is being taken into account is Unbreaking. It works with Unbreaking 1,2 and 3. Every Block you veinmine has a chance to not count towards the durability-loss of your Tool. This means you will be able to mine tons more Blocks with the same tool than in previous Versions.
 
 There are Options to customise the Useage and Effects:
 
 # 1st Customisation: Do you want it to only work with certain/special tools?
 
-Do you want it to work through an Enchantment? Then you don't need to do anything, as that is the default setting. 
-To add the Enchantment on your tool throw them onto an Enchanting Table, then throw an ender eye on the table too and it will have the Enchantment added. Be sure to do this in Survival Mode. That way you can still use other tools normally without accidentally veinmining.
+Do you want it to work through an Enchantment? Then you don't need to change any settings, as that is the default. 
+To add the Enchantment on your tool drop them onto an Enchanting Table, then throw an ender eye on the table too (throw them out of your Inventory, standard key is "q"). The Tool will jump up for a second and will have the Enchantment added. Be sure to do this in Survival Mode, since the datapack as a whole is only useable in Survival Mode. With the Enchantment-Option you can still use other tools normally without accidentally veinmining.
 
 Do you want it to work without the Enchantment? Then you need to copy the following command ingame into chat and execute it once:
 
@@ -34,9 +34,9 @@ You need to have permissions to type this command into chat. Either via a LAN-wo
 
 # 2nd Customisation: You can decide if you want it to apply a Hunger-debuff.
 
-The more Blocks are mined the more Hunger you get. Per Default, the Hunger effects are enabled so if you're ok with that you don't need to change anything.
+The more Blocks are mined the more Hunger you get. Per Default, the Hunger effects are enabled so if you're ok with that you don't need to change anything. I tried to make the Effects more balanced compared to previous Versions, but if you feel it's still too extreme, then turning it off may be better for you.
 
-If you want to disable these effects from being applied you can turn them off. Copy this command ingame into chat and execute it once:
+If you want to stop these effects from being applied, copy this command ingame into chat and execute it once:
 
 /scoreboard players set #vm_debuff vm_calc 0
 
@@ -54,11 +54,11 @@ You need to have permissions to type this command into chat. (Either via LAN-wor
 
 # Installation
 
-Here on GitHub, the repository shows the zip-file directly: "vein_miner_u_1.13.2.zip" or "vein_miner_u_1.14.zip"
+Here on GitHub, the repository shows the zip-file(s) directly: "vein_miner_u_1.13.2.zip" or "vein_miner_u_1.14.zip"
 
-Click on that and you will see a different page with a direct Download Button on the right hand side. Click that and save it.
+Click on either one and you will see a different page with a direct Download Button on the right hand side. Click that and save it. (No need to download the whole repository) 
 
-Then open your minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile needs to be copied into. 
+Then open your minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile needs to be copied into. Just drag and drop and you're done. 
 
 If the world is currently running, you might need to type the command: "/reload" into chat, or restart the world.
 
