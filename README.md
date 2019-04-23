@@ -2,7 +2,7 @@
 The One Vein-Miner-Datapack to displace all previous Versions
 
 # A 1.13-Version is available. Tested in 1.13.2 and functioning.
-# The 1.14-Version was last tested in Prerelease 5 and is considered a "Work in Progress". After 1.14 has fully released I will update that again if necessary.
+# The 1.14-Version is functioning as well. If need be, I will update it.
 __________________________________________________________________________________________________
 
 This Veinminer works with the following tools:
@@ -74,6 +74,6 @@ This will remove the scoreboards that were added. Then close the world and delet
 
 # Technical/Other
 
-The commands in the 1.14-Version detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any datapacks). If you have a datapack that changes Block-loot-tables then things could break.
+The commands in the 1.14-Version detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
 
 If errors occur, let me know.
