@@ -2,7 +2,7 @@
 The One Vein-Miner-Datapack to displace all previous Versions
 
 # A 1.13-Version is available. Tested in 1.13.2 and functioning.
-# The 1.14-Version is functioning as well. If need be, I will update it.
+# The 1.14-Version is functioning, mostly. An Issue occasionally occurs when mining ore. I'm in the process of getting this fixed.
 __________________________________________________________________________________________________
 
 This Veinminer works with the following tools:
