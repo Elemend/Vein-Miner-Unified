@@ -2,7 +2,7 @@
 The One Vein-Miner-Datapack to displace all previous Versions
 
 # A 1.13-Version is available. Tested in 1.13.2 and functioning.
-# The 1.14-Version is functioning, mostly. An Issue occasionally occurs when mining ore. I'm in the process of getting this fixed.
+# The 1.14-Version is functioning as well. 
 __________________________________________________________________________________________________
 
 This Veinminer works with the following tools:
@@ -19,44 +19,39 @@ Fortune and Silk Touch Enchants on the used Tools are taken into Account as well
 
 Another Enchantment that is being taken into account is Unbreaking. It works with Unbreaking 1,2 and 3. Every Block you veinmine has a chance to not count towards the durability-loss of your Tool. This means you will be able to mine tons more Blocks with the same tool than in previous Versions.
 
-There are Options to customise the Useage and Effects:
+# If this datapack is installed a new advancement tab shows up to let you know that it's installed.
 
-# 1st Customisation: Do you want it to only work with certain/special tools?
+An Idea from the "Minecraft Datapacks"-Discord that I fancied.
+This tab shows two Icons associated to me: my player head and a pickaxe. The player head indicates who made this datapack and shows you a link to my github in its description. The second icons' description lets you know there is a function you can call through the ingame chat:
 
-Do you want it to work through an Enchantment? Then you don't need to change any settings, as that is the default. 
-To add the Enchantment on your tool drop them onto an Enchanting Table, then throw an ender eye on the table too (throw them out of your Inventory, standard key is "q"). The Tool will jump up for a second and will have the Enchantment added. Be sure to do this in Survival Mode, since the datapack as a whole is only useable in Survival Mode. With the Enchantment-Option you can still use other tools normally without accidentally veinmining.
+"/function vm:custom"
 
-Do you want it to work without the Enchantment? Then you need to copy the following command ingame into chat and execute it once:
+You need to have permissions to type this command into chat. Either via a LAN-world in which cheats are enabled or being opped on a Server. This will give you a chatmessage where you can customise the 3 following things:
 
-/scoreboard players set #vm_ench vm_calc 0
+# 1st Customisation; veinmining with or without enchantment:
 
-You need to have permissions to type this command into chat. Either via a LAN-world in which cheats are enabled or being opped on a Server. This will make veinmining availabe without having to enchant the tool prior, but beware of accidentally veinmining something.
+Do you want it to work through an Enchantment? This is per default [enabled]. 
+To add the Enchantment on your tool drop them onto an Enchanting Table, then throw an ender eye on the table too (throw them out of your Inventory, standard key is "q"). The Tool will jump up for a second and will have the Enchantment added. Be sure to do this in Survival Mode, since the datapack is only useable in Survival Mode. With the Enchantment-Option you can still use other tools normally without accidentally veinmining.
 
-# 2nd Customisation: You can decide if you want it to apply a Hunger-debuff.
+Do you want it to work without the Enchantment? Then click [disable] in the chatmessage.
 
-The more Blocks are mined the more Hunger you get. Per Default, the Hunger effects are enabled so if you're ok with that you don't need to change anything. I tried to make the Effects more balanced compared to previous Versions, but if you feel it's still too extreme, then turning it off may be better for you.
+# 2nd Customisation; the hunger-debuff.
 
-If you want to stop these effects from being applied, copy this command ingame into chat and execute it once:
+The more Blocks are mined the more Hunger you get. This is per default [enabled]. I tried to make the Effects more balanced compared to previous Versions, but if you feel it's still too extreme, then turning it off may be better for you.
 
-/scoreboard players set #vm_debuff vm_calc 0
+If you want to stop these effects from being applied then click [disable] in the chatmessage.
 
-You need to have permissions to type this command into chat. (Either via LAN-world which has cheats enabled or being opped on a Server)
+# 3rd Customisation; teleporting the items.
 
-# 3rd Customisation: You can decide if you want the items that are generated to be teleported to you.
+The Items from the Blocks you mined will appear at the original Block you veinmined. These can be teleported to the player. This is per default [enabled]. It happens quite fast so you normally shouldn't notice it. If you're ok with that you don't need to change it.
 
-The Items from the Blocks you mined will appear at the original Block you veinmined. Per Default, these will be teleported directly to the player. It happens quite fast so you normally shouldn't notice it. If you're ok with that you don't need to change anything.
-
-If you want to disable that to stop the items from filling your Inventory too quickly, then you can turn that off. Copy this command ingame into chat and execute it once:
-
-/scoreboard players set #vm_tpitems vm_calc 0
-
-You need to have permissions to type this command into chat. (Either via LAN-world which has cheats enabled or being opped on a Server)
+If you want to disable that to stop the items from filling your Inventory too quickly, then you can turn that off by clicking [disable] in the chatmessage.
 
 # Installation
 
 Here on GitHub, the repository shows the zip-file(s) directly: "vein_miner_u_1.13.2.zip" or "vein_miner_u_1.14.zip"
 
-Click on either one and you will see a different page with a direct Download Button on the right hand side. Click that and save it. (No need to download the whole repository) 
+Click the one that fits the Minecraft Version you play on and you will see a different page with a direct Download Button on the right hand side. Click that and save it. (No need to download the whole repository) 
 
 Then open your minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile needs to be copied into. Just drag and drop and you're done. 
 
