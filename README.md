@@ -72,3 +72,7 @@ This will remove the scoreboards that were added. Then close the world and delet
 The commands in the 1.14-Version detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
 
 If errors occur, let me know.
+
+# Updated 09.05.2019
+
+Updated the Advancement Tab to the latest standard.
