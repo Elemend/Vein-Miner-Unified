@@ -5,6 +5,7 @@ The One Vein-Miner-Datapack to displace all previous Versions
 # The 1.14-Version is functioning as well. 
 __________________________________________________________________________________________________
 
+
 This Veinminer works with the following tools:
 
 Diamond Pickaxe, Diamond Axe, Diamond Shovel, Diamond Hoe
@@ -21,31 +22,42 @@ Another Enchantment that is being taken into account is Unbreaking. It works wit
 
 # If this datapack is installed a new advancement tab shows up to let you know that it's installed.
 
-An Idea from the "Minecraft Datapacks"-Discord that I fancied.
-This tab shows two Icons associated to me: my player head and a pickaxe. The player head indicates who made this datapack and shows you a link to my github in its description. The second icons' description lets you know there is a function you can call through the ingame chat:
+![Example3](https://github.com/Elemend/Vein-Miner-Unified/blob/master/vein_miner_unified/2019-05-11_23.50.26.png)
 
-"/function vm:custom"
+In Accordance to the Conventions of the [Minecraft Datapacks Discord](https://discord.gg/56ySADc).
+The icon description lets you know there is a function you can call through the ingame chat:
 
-You need to have permissions to type this command into chat. Either via a LAN-world in which cheats are enabled or being opped on a Server. This will give you a chatmessage where you can customise the 3 following things:
+![Example3](https://github.com/Elemend/Vein-Miner-Unified/blob/master/vein_miner_unified/2019-05-12_00.28.42.png)
 
-# 1st Customisation; veinmining with or without enchantment:
+You need to have permissions to execute this command through chat. Either via a LAN-world in which cheats are enabled or being opped on a Server. If you execute this function it will display a message where you can change variables which control the 3 following things:
 
-Do you want it to work through an Enchantment? This is per default [enabled]. 
-To add the Enchantment on your tool drop them onto an Enchanting Table, then throw an ender eye on the table too (throw them out of your Inventory, standard key is "q"). The Tool will jump up for a second and will have the Enchantment added. Be sure to do this in Survival Mode, since the datapack is only useable in Survival Mode. With the Enchantment-Option you can still use other tools normally without accidentally veinmining.
+![custom](https://github.com/Elemend/Vein-Miner-Unified/blob/master/vein_miner_unified/2019-05-12_00.42.43.png)
+
+
+# 1 - veinmining with or without enchantment:
+
+Do you want it to only work as an Enchantment? This is per default [enabled]. 
+To add it on your tool drop them onto an Enchanting Table, then throw an ender eye on the table too (throw them out of your Inventory, standard key is "q"). The Tool will jump up for a second and will have the Enchantment added. Be sure to do this in Survival Mode, since the datapack is only useable in Survival Mode. With the Enchantment-Option you can still use other tools normally without accidentally veinmining.
 
 Do you want it to work without the Enchantment? Then click [disable] in the chatmessage.
 
-# 2nd Customisation; the hunger-debuff.
+# 2 - the hunger-debuff.
 
 The more Blocks are mined the more Hunger you get. This is per default [enabled]. I tried to make the Effects more balanced compared to previous Versions, but if you feel it's still too extreme, then turning it off may be better for you.
 
 If you want to stop these effects from being applied then click [disable] in the chatmessage.
 
-# 3rd Customisation; teleporting the items.
+# 3 - teleporting the mined items.
 
 The Items from the Blocks you mined will appear at the original Block you veinmined. These can be teleported to the player. This is per default [enabled]. It happens quite fast so you normally shouldn't notice it. If you're ok with that you don't need to change it.
 
 If you want to disable that to stop the items from filling your Inventory too quickly, then you can turn that off by clicking [disable] in the chatmessage.
+
+
+# Limit veinmining to certain Blocks:
+
+This is something that can't be done by setting a value somewhere. You'll need to have to edit the pack.
+A how to with an example can be found as a [Wiki entry](https://github.com/Elemend/Vein-Miner-Unified/wiki).
 
 # Installation
 
@@ -55,15 +67,15 @@ Click the one that fits the Minecraft Version you play on and you will see a dif
 
 Then open your minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile needs to be copied into. Just drag and drop and you're done. 
 
-If the world is currently running, you might need to type the command: "/reload" into chat, or restart the world.
+Minecraft will enable new availabe Datapacks on a restart of the world. If the world is currently running, you will need to type the command: "/reload" into chat.
 
 # Uninstall
 
-To uninstall the Vein miner from your world, run the function uninstall_vm once through chat: 
+To uninstall the Vein miner from your world, run the function "uninstall_vm" once through chat: 
 
-/function vm:uninstall_vm 
+![uninstall](https://github.com/Elemend/Vein-Miner-Unified/blob/master/vein_miner_unified/2019-05-12_00.27.14.png)
 
-This will remove the scoreboards that were added. Then close the world and delete the datapack in your worldsave.
+This will remove the scoreboards that were added. Then close the world and delete the datapack in your worldsave. It might be necessary to close Minecraft completely. A message could pop up saying: "the file is still in use".
 
 
 
