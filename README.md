@@ -49,7 +49,7 @@ If you want to stop these effects from being applied then click [disable] in the
 
 # 3 - teleporting the mined items.
 
-The Items from the Blocks you mined will appear at the original Block you veinmined. These can be teleported to the player. This is per default [enabled]. It happens quite fast so you normally shouldn't notice it. If you're ok with that you don't need to change it.
+The Items from the Blocks you mined will appear at the original Block you veinmined. These can be teleported to the player. This is per default [enabled]. This happens immediatly after mining an area, the smaller the area the faster it happens. If you're ok with that you don't need to change it.
 
 If you want to disable that to stop the items from filling your Inventory too quickly, then you can turn that off by clicking [disable] in the chatmessage.
 
