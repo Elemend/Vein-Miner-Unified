@@ -85,6 +85,6 @@ The commands in the 1.14-Version detect the items that drop from the mined Block
 
 If errors occur, let me know.
 
-# Updated 09.05.2019
+# Updated 07.07.2019
 
-Updated the Advancement Tab to the latest standard.
+Fixed tools with 0 durability being able to veinmine and getting wrong itemdrops.
