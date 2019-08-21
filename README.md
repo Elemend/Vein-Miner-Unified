@@ -85,6 +85,7 @@ The commands in the 1.14-Version detect the items that drop from the mined Block
 
 If errors occur, let me know.
 
-# Updated 07.07.2019
+# Updated 21.08.2019
 
 Fixed tools with 0 durability being able to veinmine and getting wrong itemdrops.
+Made the datapck compatible with unbreakable diamond tools which are available through other datapacks, for example Ruby Craft.
