@@ -2,7 +2,8 @@
 The One Vein-Miner-Datapack to displace all previous Versions
 
 # A 1.13-Version is available. Tested in 1.13.2 and functioning.
-# The 1.14-Version was last tested in 1.14.3.
+# The 1.14-Version was last tested in 1.14.4.
+# The 1.15-Version was last tested in 1.15.2.
 __________________________________________________________________________________________________
 
 
