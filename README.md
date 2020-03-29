@@ -61,7 +61,7 @@ A how to with an example can be found as a [Wiki entry](https://github.com/Eleme
 
 # Installation
 
-Here on GitHub, the repository shows the zip-file(s) directly: "vein_miner_u_1.13.2.zip" or "vein_miner_u_1.14.zip"
+Here on GitHub, the repository shows the zip-file(s) directly: "vein_miner_u_1.13.2.zip" or "vein_miner_u_1.14.zip" or "vein_miner_u_1.15.zip"
 
 Click the one that fits the Minecraft Version you play on and you will see a different page with a direct Download Button on the right hand side. Click that and save it. (No need to download the whole repository) 
 
@@ -75,18 +75,15 @@ To uninstall the Vein miner from your world, run the function "uninstall_vm" onc
 
 ![uninstall](https://github.com/Elemend/Vein-Miner-Unified/blob/master/vein_miner_unified/2019-05-12_00.27.14.png)
 
-This will remove the scoreboards that were added. Then close the world and delete the datapack in your worldsave. It might be necessary to close Minecraft completely. A message could pop up saying: "the file is still in use".
+This will remove the scoreboards that were added. Then close the world and delete the datapack in your worldsave. It might be necessary to close Minecraft completely since a message could pop up saying: "the file is still in use".
 
 
 
 # Technical/Other
 
-The commands in the 1.14-Version detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
+The commands in the 1.14- and 1.15-Version detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
 
-If errors occur, let me know.
 
-# Updated 21.08.2019
+# Updated 29.03.2020
 
-Fixed tools with 0 durability being able to veinmine and getting wrong itemdrops.
-
-Made the datapack compatible with unbreakable diamond tools which are available through other datapacks, for example Ruby Craft.
+Added the 1.15 Version here as well. New Advancement Background: gray concrete.
