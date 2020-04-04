@@ -7,11 +7,9 @@ The One Vein-Miner-Datapack to displace all previous Versions
 __________________________________________________________________________________________________
 
 
-This Veinminer works with the following tools:
+This Veinminer works with all tools:
 
-Diamond Pickaxe, Diamond Axe, Diamond Shovel, Diamond Hoe
-
-Iron Pickaxe, Iron Axe, Iron Shovel, Iron Hoe and Shears
+All Pickaxes, All Axes, All Shovel and All Hoes and also Shears.
 
 Using these tools still follows the same principle as past Versions: **Mine Blocks while sneaking** and all identical Blocks that are **orthogonally connected** to the one mined, up to a distance of 4 Blocks will be mined too. The theoretical Maximum Volume of Blocks that it will mine is 9x9x9, or 729 Blocks. (Theoretically because the player has to stand somewhere)
 
@@ -85,6 +83,6 @@ This will remove the scoreboards that were added. Then close the world and delet
 The commands in the 1.14- and 1.15-Version detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
 
 
-# Updated 29.03.2020
+# Updated 04.04.2020
 
-Added the 1.15 Version here as well. New Advancement Background: gray concrete.
+Added all the missing tools to this. Now every tier works.
