@@ -6,7 +6,7 @@ https://www.github.com/Aeldrion/AESTD
 https://www.twitter.com/Aeldrion
 
 # The 1.15-Version was last tested in 1.15.2.
-# The 1.16-Version was tested in 20w21a
+# The 1.16-Version was tested in 1.16.1
 __________________________________________________________________________________________________
 
 
@@ -63,7 +63,7 @@ A how to with an example can be found as a [Wiki entry](https://github.com/Eleme
 
 # Installation
 
-Here on GitHub, the repository shows the zip-file(s) directly: "vein_miner_u_1.13.2.zip" or "vein_miner_u_1.14.zip" or "vein_miner_u_1.15.zip"
+Here on GitHub, the repository shows the zip-file(s) directly: "vein_miner_u_1.14.zip" or "vein_miner_u_1.15.zip" or "vein_miner_u_1.16.zip"
 
 Click the one that fits the Minecraft Version you play on and you will see a different page with a direct Download Button on the right hand side. Click that and save it. (No need to download the whole repository) 
 
@@ -83,9 +83,4 @@ This will remove the scoreboards that were added. Then close the world and delet
 
 # Technical/Other
 
-The commands in the 1.14- and 1.15-Version detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
-
-
-# Updated 04.04.2020
-
-Added all the missing tools to this. Now every tier works.
+The commands detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize (Not so fun fact: the first version was about 6 MB) but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
