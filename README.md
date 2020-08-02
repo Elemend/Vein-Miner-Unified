@@ -84,3 +84,7 @@ This will remove the scoreboards that were added. Then close the world and delet
 # Technical/Other
 
 The commands detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize (Not so fun fact: the first version was about 6 MB) but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
+
+# Updated 02.08.2020
+
+Updated the Chunk Setup to not occasionally fail on load. This hopefully prevents you from getting stone buttons in your inventory instead of the correct items.
