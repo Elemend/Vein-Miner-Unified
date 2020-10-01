@@ -1,0 +1,1 @@
+In 1.16 version the nether gold ores do not break as functioned and also silk touch does not work either on nether gold ore block when using this datapack.this was tested by me in 1.16.2
