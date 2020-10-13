@@ -1,6 +1,9 @@
 # Vein-Miner-Unified
 The One Vein-Miner-Datapack to displace all previous Versions
 
+# There is no way of remapping the button that controls vein mining
+# If you want to do that, play the mod. What are you even doing with a lackluster data pack anyway?
+
 Uses AESTD by Aeldrion
 https://www.github.com/Aeldrion/AESTD
 https://www.twitter.com/Aeldrion
