@@ -66,11 +66,11 @@ A how to with an example can be found as a [Wiki entry](https://github.com/Eleme
 # Installation
 
 Download the zip-file corresponding to the Version you use:  
-[vein_miner_u_1.14.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v.1.14) 
-[vein_miner_u_1.15.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v.1.15)
-[vein_miner_u_1.16.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v.1.16.4)
+# [vein_miner_u_1.14.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v.1.14) 
 
-Click the one that fits the Minecraft Version you play on and you will see a different page with a direct Download Button on the right hand side. Click that and save it. (No need to download the whole repository) 
+# [vein_miner_u_1.15.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v.1.15)
+
+# [vein_miner_u_1.16.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v.1.16.4)
 
 Then open your minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile needs to be copied into. Just drag and drop and you're done. 
 
