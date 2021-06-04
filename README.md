@@ -70,7 +70,7 @@ Download the zip-file corresponding to the Version you use:
 
 # [vein_miner_u_1.15.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v.1.15)
 
-# [vein_miner_u_1.16.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v.1.16.4)
+# [vein_miner_u_1.16.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v1.16.5)
 
 Then open your minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile needs to be copied into. Just drag and drop and you're done. 
 
@@ -90,6 +90,6 @@ This will remove the scoreboards that were added. Then close the world and delet
 
 The commands detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize (Not so fun fact: the first version was about 6 MB) but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
 
-# Updated 16.11.2020
+# Updated 04.06.2020 (dd.mm.yyyy)
 
-Some blocks like crops and flowers don't cost durability when mining normally. I changed it so that when you veinmine such blocks it  doesn't cost durability.
+Fixed so many bugs, it's ridiculous.
