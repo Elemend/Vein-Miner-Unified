@@ -7,8 +7,7 @@ Uses AESTD by Aeldrion
 https://www.github.com/Aeldrion/AESTD
 https://www.twitter.com/Aeldrion
 
-# The 1.15-Version was last tested in 1.15.2.
-# The 1.16-Version was tested in 1.16.4
+# The 1.16-Version was tested in 1.16.5
 __________________________________________________________________________________________________
 
 
