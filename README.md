@@ -69,7 +69,7 @@ Download the zip-file corresponding to the Version you want to use this on:
 
 # [vein_miner_u_1.16.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v1.16.5)
 
-# [vein_miner_u_1.17.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/v.1.17.beta)
+# [vein_miner_u_1.17.zip](https://github.com/Elemend/Vein-Miner-Unified/releases/tag/1.17)
 
 Then open your minecraft directory, where the savefile for your world is saved. Your worldsave contains a folder "datapacks", where the zipfile needs to be copied into. Just drag and drop and you're done. 
 
@@ -89,6 +89,6 @@ This will remove the scoreboards that were added. Then close the world and delet
 
 The commands detect the items that drop from the mined Blocks and read its ID. I do this to spare a whole load of commands and a lot of function files. This shrinks the filesize (Not so fun fact: the first version was about 6 MB) but is also a potential source of errors, since the Blocks need to drop what they would do in the Vanilla Game (without any additional datapacks). If you have a datapack that changes Block-loot-tables then things could break.
 
-# Updated 17.06.2020 (dd.mm.yyyy)
+# Updated 10.07.2020 (dd.mm.yyyy)
 
-1.17 changed some command syntax so this now is fixed. The new blocks will not work though. that will come with a later version.
+Fixed some block tag related issues in the preview version. With this release the new 1.17-blocks will be mineable.
