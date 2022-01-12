@@ -1,3 +1,5 @@
+# There will be no Version for 1.18 and following
+
 # Vein-Miner-Unified
 The One Vein-Miner-Datapack to displace all previous Versions
 
@@ -8,7 +10,7 @@ https://www.github.com/Aeldrion/AESTD
 https://www.twitter.com/Aeldrion
 
 # The 1.17-Version was tested in the full 1.17-release
-# The new blocks are not working to be veinmined just yet though.
+# There will be no Version for 1.18 and following
 __________________________________________________________________________________________________
 
 
